@@ -3,6 +3,8 @@ var possibleWords = ["array", "stylesheet", "javascript", "function", "iteration
 
 var wins = 0 
 
+ resetGame ()
+
 function countdown() {
     var timeLeft = 10;
   
@@ -28,3 +30,8 @@ function countdown() {
       }
     }, 1000);
   }
+  
+  
+  function resetGame() {
+  }
+    
